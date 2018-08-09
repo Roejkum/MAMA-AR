@@ -21,18 +21,6 @@ page_sections:
 - template: hero-banner-w-iframe
   block: hero-3
   url: https://mamacph.dk
-- template: hero-banner-w-image
-  block: hero-2
-  headline: "<strong>Interaktive<br></strong>digitale oplevelser"
-  content: ''
-  cta:
-    enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
-  image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -92,6 +80,18 @@ page_sections:
   block: footer-1
   content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br><br>Læs mere om, hvad vi
     ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
+- template: hero-banner-w-image
+  block: hero-2
+  headline: "<strong>Interaktive<br></strong>digitale oplevelser"
+  content: ''
+  cta:
+    enabled: true
+    url: https://github.com/forestryio/ubuild-jekyll
+    button_text: 'See on GitHub '
+  image:
+    image: "/uploads/2018/06/21/product-shot-1.png"
+    alt_text: Product Shot
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 
 ---
 foo bar
