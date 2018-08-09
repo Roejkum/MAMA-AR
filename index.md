@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Homepage
+title: Digitale interaktive oplevelser
 date: 2017-11-22 23:00:00 +0000
 page_sections:
 - template: navigation-header-w-button
@@ -87,7 +87,8 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
-  content: Hello world! ❤︎
+  content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br><br>Læs mere om, hvad vi
+    ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
 
 ---
 foo bar
