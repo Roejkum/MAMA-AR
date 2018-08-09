@@ -7,8 +7,8 @@ page_sections:
   block: header-2
   logo: "/uploads/2018/06/21/forestry-full.svg"
   navigation:
-  - link: "/"
-    link_text: Home
+  - link: https://mamacph.dk
+    link_text: MAMAcph.dk
   - link: "#"
     link_text: Features
   - link: "#"
@@ -75,6 +75,6 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
----
 
+---
 foo bar
