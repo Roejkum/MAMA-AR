@@ -3,6 +3,9 @@ layout: blocks
 title: Digitale interaktive oplevelser
 date: 2017-11-22 23:00:00 +0000
 page_sections:
+- template: hero-banner-w-iframe
+  block: hero-3
+  url: https://mamacph.dk
 - template: navigation-header-w-button
   block: header-2
   logo: "/uploads/2018/08/09/Mama logo inverteret.png"
