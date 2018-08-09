@@ -31,6 +31,14 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
+- template: 2-column-text
+  block: two-column-1
+  col_1:
+    content: Visualisér 3d-modeller på en telefon i den fysiske verden.
+    headline: AR
+  col_2:
+    headline: 360-video og billede
+    content: Skab et virtuelt rum som man kan gå på opdagelse i.
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -53,6 +61,8 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
+- template: 2-column-text
+  block: two-column-1
 - template: content-feature
   block: feature-1
   media_alignment: Right
