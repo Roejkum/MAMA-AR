@@ -49,8 +49,8 @@ page_sections:
     content: Skab et virtuelt rum som man kan gå på opdagelse i.
   col_3:
     headline: 360-video og billeder
-    content: Vis 360-videoer eller billeder på en hjemmeside eller i en app. Rigtig
-      rigtig god måde at lave noget fedt!
+    content: Lad ikke billedet begrænse hvad du vil vise. Vis omgivelser og skab indlevende
+      og interaktive fortællinger.<br><br>
 - template: content-feature
   block: feature-1
   media_alignment: Left
