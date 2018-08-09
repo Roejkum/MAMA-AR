@@ -35,7 +35,7 @@ page_sections:
   block: three-column-1
   col_1:
     headline: AR
-    content: Visualisér 3d-modeller på din telefon - gå rundt om og ind i...
+    content: Visualisér 3d-modeller på en telefon i den fysiske verden.
   col_2:
     headline: VR
     content: Se det her. Det er bare så fedt.
