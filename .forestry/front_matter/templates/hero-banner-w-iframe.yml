@@ -8,6 +8,6 @@ fields:
   label: block
   name: block
   default: hero-3
-  - type: text
-    name: url
-    label: url
+- type: text
+  name: url
+  label: url
