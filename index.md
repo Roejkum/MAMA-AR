@@ -16,8 +16,8 @@ page_sections:
   - link: "#vr"
     link_text: VR
   cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download
+    url: mailto:mama@mamacph.dk
+    button_text: Kontakt os
 - template: hero-banner-w-image
   block: hero-2
   headline: uBuild <br><strong>design blocks</strong>
