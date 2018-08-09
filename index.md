@@ -31,6 +31,18 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
+- template: 3-column-text
+  block: three-column-1
+  col_1:
+    headline: AR
+    content: Visualisér 3d-modeller på din telefon - gå rundt om og ind i...
+  col_2:
+    headline: VR
+    content: Se det her. Det er bare så fedt.
+  col_3:
+    headline: 360-video
+    content: Vis 360-videoer eller billeder på en hjemmeside eller i en app. Rigtig
+      rigtig god måde at lave noget fedt!
 - template: content-feature
   block: feature-1
   media_alignment: Left
