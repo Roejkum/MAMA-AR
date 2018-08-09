@@ -43,10 +43,10 @@ page_sections:
   block: three-column-1
   col_1:
     headline: AR
-    content: Visualisér 3d-modeller på en telefon i den fysiske verden.
+    content: Visualisér 3d-modeller i den virkelige verden.
   col_2:
     headline: VR
-    content: Se det her. Det er bare så fedt.
+    content: Skab et virtuelt rum som man kan gå på opdagelse i.
   col_3:
     headline: 360-video og billeder
     content: Vis 360-videoer eller billeder på en hjemmeside eller i en app. Rigtig
