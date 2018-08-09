@@ -40,7 +40,7 @@ page_sections:
     headline: VR
     content: Se det her. Det er bare så fedt.
   col_3:
-    headline: 360-video
+    headline: 360-video og billeder
     content: Vis 360-videoer eller billeder på en hjemmeside eller i en app. Rigtig
       rigtig god måde at lave noget fedt!
 - template: content-feature
