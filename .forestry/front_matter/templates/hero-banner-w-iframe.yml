@@ -1,0 +1,13 @@
+---
+label: hero-banner-w-iframe
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: hero-3
+  - type: text
+    name: url
+    label: url

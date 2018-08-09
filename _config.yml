@@ -1,14 +1,14 @@
-title: uBuild Design Blocks
-author: Forestry.io
-email: support@forestry.io
+title: MAMA AR, VR og 360
+author: MAMA
+email: mama@mamacph.dk
 description: >-
-  ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature. 
-  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI 
-  that will empower content editors to construct their own webpages.
-baseurl: "/ubuild-jekyll" # the subpath of your site, e.g. /blog
+  Digitale interaktive oplevelser. 
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # your site's origin, e.g. https://forestry.io
 
 # Build settings
+permalink: pretty
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
@@ -18,6 +18,13 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-menus
+  - jekyll-coffeescript
+
+# Use this for production
+sass:
+  style: :compressed
+sass:
+  sass_dir: _sass/ar
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -30,3 +37,5 @@ gems:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
