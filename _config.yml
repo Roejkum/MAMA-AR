@@ -24,7 +24,7 @@ gems:
 sass:
   style: :compressed
 sass:
-  sass_dir: _sass/ar
+  sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
