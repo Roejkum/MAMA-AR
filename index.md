@@ -11,10 +11,10 @@ page_sections:
     link_text: MAMAcph.dk
   - link: "#"
     link_text: Features
-  - link: "#"
-    link_text: Pricing
-  - link: "#"
-    link_text: Team
+  - link: "#ar"
+    link_text: AR
+  - link: "#vr"
+    link_text: VR
   cta:
     url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
     button_text: Download
