@@ -1,6 +1,15 @@
 ---
 main:
-- identifier: home
-  url: "/"
+- url: "/#VR"
+  weight: 3
+  title: VR
+- url: "/#AR"
+  weight: 2
+  title: AR
+- url: "/#features"
   weight: 1
-  title: Home
+  title: Features
+- identifier: home
+  url: https://mamacph.dk
+  weight: 1
+  title: MAMAcph.dk
