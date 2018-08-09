@@ -20,7 +20,7 @@ page_sections:
     button_text: Kontakt os
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>Interakive<br></strong>digitale oplevelser"
+  headline: "<strong>Interaktive<br></strong>digitale oplevelser"
   content: ''
   cta:
     enabled: true
