@@ -7,14 +7,14 @@ page_sections:
   block: header-2
   logo: "/uploads/2018/08/09/Mama logo inverteret.png"
   navigation:
-  - link: https://mamacph.dk
-    link_text: MAMAcph.dk
-  - link: "#"
-    link_text: Features
-  - link: "#ar"
-    link_text: AR
+  - link: "#3d"
+    link_text: 3d visualisering
   - link: "#vr"
     link_text: VR
+  - link: "#ar"
+    link_text: AR
+  - link: "#"
+    link_text: Features
   cta:
     url: mailto:mama@mamacph.dk
     button_text: Kontakt os
