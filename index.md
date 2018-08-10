@@ -42,6 +42,18 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
+- template: hero-banner-w-image
+  block: hero-2
+  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
+  content: ''
+  cta:
+    enabled: false
+    url: https://github.com/forestryio/ubuild-jekyll
+    button_text: 'See on GitHub '
+  image:
+    image: "/uploads/2018/06/21/product-shot-1.png"
+    alt_text: Product Shot
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: 2-column-text
   block: two-column-1
 - template: content-feature
@@ -79,18 +91,6 @@ page_sections:
   block: footer-1
   content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br><br>Læs mere om, hvad vi
     ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
-- template: hero-banner-w-image
-  block: hero-2
-  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
-  content: ''
-  cta:
-    enabled: false
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
-  image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 
 ---
 foo bar
