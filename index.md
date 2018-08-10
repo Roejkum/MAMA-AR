@@ -36,7 +36,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>Visualisér produkter<br></strong><span class="light">I et fysisk
+  headline: <strong>Visualisér produkter<br></strong><span class="light">i et fysisk
     rum</span>
   content: Video med AR i telefon.
   media:
