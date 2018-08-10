@@ -20,7 +20,7 @@ page_sections:
     button_text: Kontakt os
 - template: hero-banner-w-iframe
   block: hero-3
-  url: https://mamacph.dk
+  url: http://localhost:8081/index.html
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -36,13 +36,24 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
+  headline: <strong>Visualisér produkter<br></strong><span class="light">I et fysisk
+    rum</span>
+  content: Video med AR i telefon.
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
+- template: hero-banner-w-image
+  block: hero-2
+  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
+  content: ''
+  cta:
+    enabled: false
+    url: https://github.com/forestryio/ubuild-jekyll
+    button_text: 'See on GitHub '
+  image:
+    image: "/uploads/2018/06/21/product-shot-1.png"
+    alt_text: Product Shot
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: 2-column-text
   block: two-column-1
 - template: content-feature
@@ -80,18 +91,6 @@ page_sections:
   block: footer-1
   content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br><br>Læs mere om, hvad vi
     ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
-- template: hero-banner-w-image
-  block: hero-2
-  headline: "<strong>Interaktive<br></strong>digitale oplevelser"
-  content: ''
-  cta:
-    enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
-  image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 
 ---
 foo bar
