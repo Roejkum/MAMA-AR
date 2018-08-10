@@ -59,7 +59,7 @@ page_sections:
   headline: Hvem er vi?
   content: "Vi er et bureau der designer og udvikler digitale interaktive oplevelser.
     Vi arbejder med at gøre nye teknologier tilgængelige på devices som brugerne allerede
-    har, med det formål at skabe indlevende oplevelser.<br><br>Hvis vi har vækket
+    har, med det formål at skabe engagerende oplevelser.<br><br>Hvis vi har vækket
     din interesse kan du se vores kontaktinfo nedenfor\U0001F447"
 - template: simple-footer
   block: footer-1
