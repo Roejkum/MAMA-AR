@@ -49,8 +49,8 @@ page_sections:
   headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
-- template: hero-banner-w-iframe
-  block: hero-3
+- template: hero-banner-w-iframe-no-overlay
+  block: hero-4
   url: https://mamacph.dk
 - template: 1-column-text
   block: one-column-1
