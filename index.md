@@ -25,14 +25,14 @@ page_sections:
   block: three-column-1
   col_1:
     headline: AR
-    content: Visualisér 3d-modeller i den virkelige verden.
+    content: Visualisér 3d-modeller i den virkelige verden med præcis størrelsesgengivelse.
   col_2:
     headline: VR
-    content: Skab et virtuelt rum som man kan gå på opdagelse i.
+    content: Skab et virtuelt rum man kan gå på opdagelse i.
   col_3:
     headline: 360-video og billeder
     content: Lad ikke billedet begrænse hvad du vil vise. Vis omgivelser og skab indlevende
-      og interaktive fortællinger.<br><br>
+      og interaktive fortællinger.
 - template: content-feature
   block: feature-1
   media_alignment: Left
