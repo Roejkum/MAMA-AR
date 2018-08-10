@@ -81,10 +81,10 @@ page_sections:
     ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>Interaktive<br></strong>digitale oplevelser"
+  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
   content: ''
   cta:
-    enabled: true
+    enabled: false
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'See on GitHub '
   image:
