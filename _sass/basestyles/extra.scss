@@ -11,6 +11,7 @@
         padding: 0;
         position: relative;
         overflow: hidden;
+        height: 500px;
 }
 .block-hero-3 iframe {
     width: 100%;
@@ -37,7 +38,6 @@
     color: white;
     text-align: right;
     position: relative;
-    margin-top: -100%;
 }
 .block-hero-3 .helper-overlay h1 {
     animation-name: helper-fade;
@@ -53,8 +53,8 @@
     animation-duration: 3s;
 }
 @keyframes bg-fade {
-    0% {background-color: #ffcb3ce1; top: 0;}
-    80% {background-color: #ffcb3ce1; top: 0;}
+    0% {background-color: #ffcb3cea; top: 0;}
+    80% {background-color: #ffcb3cea; top: 0;}
     100% {background-color: transparent; top: -100%;}
 }
 .arrow-left.icon {
@@ -94,4 +94,8 @@
     80% {-webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);}
 }
-
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none;
+    }
+}
