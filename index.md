@@ -47,6 +47,8 @@ page_sections:
   media_alignment: Right
   content: 3d-model man kan interagere med.
   headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
+  media:
+    image: "/uploads/2018/06/21/product-shot-1.png"
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
