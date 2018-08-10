@@ -9,7 +9,7 @@
   <nav class="block-header-2--nav">
     <ul class="hidden-xs">
         {% for item in site.data.menus.main %}
-        <li class="nav-item"><a href="{{ item.url }}" onclick="smoothScroll('{{ item.url }}');">{{ item.title }}</a></li>
+        <li class="nav-item"><a href="#{{ item.url }}" onclick="smoothScroll('{{ item.url }}');">{{ item.title }}</a></li>
         {% endfor %}
     </ul>
     <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
