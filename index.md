@@ -20,7 +20,7 @@ page_sections:
     button_text: Kontakt os
 - template: hero-banner-w-iframe
   block: hero-3
-  url: http://localhost:8081/index.html
+  url: https://mamacph.dk
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -36,61 +36,33 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>Visualisér produkter<br></strong><span class="light">I et fysisk
+  headline: <strong>Visualisér produkter<br></strong><span class="light">i et fysisk
     rum</span>
   content: Video med AR i telefon.
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
-- template: hero-banner-w-image
-  block: hero-2
-  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
-  content: ''
-  cta:
-    enabled: false
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
-  image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
-- template: 2-column-text
-  block: two-column-1
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can easily be edited in
-    Forestry's UI.
+  content: 3d-model man kan interagere med.
+  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
   media:
-    image: "/uploads/2018/06/21/edit.gif"
-    alt_text: Customize Blocks
+    image: "/uploads/2018/06/21/product-shot-1.png"
+- template: hero-banner-w-iframe
+  block: hero-3
+  url: https://mamacph.dk
 - template: 1-column-text
   block: one-column-1
-  headline: 16 Fully Responsive Design Blocks
-  content: "The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using Forestry. Once the site is imported you can immediately
-    create new sites and make them fully customizable. \U0001F447"
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
-- template: detail-content
-  block: text-1
-  headline: Steps to Build a Site!
-  content: <p>uBuild is an open-source Jekyll based theme that doubles as a builder
-    tool inside the Forestry content manager. It's easy to get started!</p><ol><li><p>Fork
-    the <a href="https://github.com/forestryio/ubuild-jekyll">repo</a> and import
-    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks#even-quicker-start">our
-    magic button</a>).</p></li><li><p>Click on 'Add New' in Forestry and select the
-    Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
-    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-    article</a> and create your own Blocks.</p></li></ol>
+  headline: Hvem er vi?
+  content: "Vi er et bureau der designer og udvikler digitale interaktive oplevelser.
+    Vi arbejder med at gøre nye teknologier tilgængelige på devices som brugerne allerede
+    har, med det formål at skabe indlevende oplevelser.<br><br>Hvis vi har vækket
+    din interesse kan du se vores kontaktinfo nedenfor\U0001F447"
 - template: simple-footer
   block: footer-1
-  content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br><br>Læs mere om, hvad vi
-    ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
+  content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br>mama@mamacph.dk<br><br>Læs
+    mere om, hvad vi ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
 
 ---
 foo bar
