@@ -61,8 +61,8 @@ page_sections:
     din interesse kan du se vores kontaktinfo nedenfor\U0001F447"
 - template: simple-footer
   block: footer-1
-  content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br><br>Læs mere om, hvad vi
-    ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
+  content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br>mama@mamacph.dk<br><br>Læs
+    mere om, hvad vi ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
 
 ---
 foo bar
