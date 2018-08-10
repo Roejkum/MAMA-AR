@@ -7,14 +7,14 @@ page_sections:
   block: header-2
   logo: "/uploads/2018/08/09/Mama logo inverteret.png"
   navigation:
-  - link: https://mamacph.dk
-    link_text: MAMAcph.dk
-  - link: "#"
-    link_text: Features
-  - link: "#ar"
-    link_text: AR
   - link: "#vr"
     link_text: VR
+  - link: "#3d"
+    link_text: 3d visualisering
+  - link: "#ar"
+    link_text: AR
+  - link: "#"
+    link_text: Features
   cta:
     url: mailto:mama@mamacph.dk
     button_text: Kontakt os
@@ -43,6 +43,7 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
+  sektionens_id: ar
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -50,6 +51,7 @@ page_sections:
   headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
+  sektionens_id: 3d
 - template: hero-banner-w-iframe-no-overlay
   block: hero-4
   url: https://mamacph.dk
