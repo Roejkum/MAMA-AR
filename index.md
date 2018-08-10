@@ -38,7 +38,8 @@ page_sections:
   media_alignment: Left
   headline: <strong>Visualisér produkter<br></strong><span class="light">i et fysisk
     rum</span>
-  content: Video med AR i telefon.
+  content: Inspicer en 3d-model eller afprøv en varmepumpes placering i et rum med
+    præcis størrelsesgengivelse.<br>(Video med AR i telefon)
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
