@@ -58,9 +58,9 @@ page_sections:
   headline: Hvem er vi?
   content: "Vi er et bureau der designer og udvikler digitale interaktive oplevelser.
     Vi arbejder med at gøre nye teknologier tilgængelige på devices som brugerne allerede
-    har, med det formål at skabe engagerende oplevelser.<br><br>Hvis vi har vækket
-    din interesse kan du se vores kontaktinfo nedenfor\U0001F447<br>Vi kommer gerne
-    forbi og giver en demo eller snakker jeres muligheder igennem \U0001F60A"
+    har, med det formål at skabe engagerende oplevelser.<br><br>Vi kommer gerne forbi
+    og giver en demo eller snakker jeres muligheder igennem.<br>Hvis vi har vækket
+    din interesse kan du se vores kontaktinfo nedenfor\U0001F447<br>"
 - template: simple-footer
   block: footer-1
   content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br>mama@mamacph.dk<br><br>Læs
