@@ -45,7 +45,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  content: 3d-model man kan interagere med.
+  content: Træk i 3d-modellen for at inspicere den fra alle vinkler.
   headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
