@@ -1,13 +1,13 @@
 ---
 main:
-- url: "/#VR"
-  weight: 3
-  title: VR
 - url: "/#AR"
   weight: 2
   title: AR
+- url: "/#VR"
+  weight: 3
+  title: VR
 - url: "/#features"
-  weight: 1
+  weight: 4
   title: Features
 - identifier: home
   url: https://mamacph.dk
