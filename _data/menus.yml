@@ -6,6 +6,6 @@ main:
 - url: "/#VR"
   weight: 2
   title: VR
-- url: "/#ar"
+- url: "#ar"
   weight: 1
   title: AR
