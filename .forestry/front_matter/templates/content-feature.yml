@@ -43,5 +43,5 @@ fields:
   label: Media Alignment
   default: Right
 - type: text
-  name: Sektionens_id
+  name: sektionens_id
   label: Sektionens id
