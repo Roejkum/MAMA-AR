@@ -1,3 +1,4 @@
+<script src="{{ site.baseurl }}/assets/js/bigscreen.min.js"></script>
   <script>
     // based on
     // http://www.itnewb.com/tutorial/Creating-the-Smooth-Scroll-Effect-with-JavaScript
@@ -5,7 +6,17 @@
     // with smoothScroll('destinationAnchorID');return false; as the onclick event.
     // <a href="#anchor-1" onclick="smoothScroll('anchor-1-id');">smooth scroll to Anchor 1<a/>
 
-
+    var element = document.getElementById('iframe-header');
+    document.getElementById('fullScreen').addEventListener('click', function() {
+      if (BigScreen.enabled) {
+        BigScreen.toggle(element, onEnter, onExit, onError);
+        // You could also use .toggle(element, onEnter, onExit, onError)
+      }
+      else {
+        // fallback for browsers that don't support full screen
+      }
+    }, false);
+    
     function currentYPosition() {
         // Firefox, Chrome, Opera, Safari
         if (self.pageYOffset) return self.pageYOffset;
