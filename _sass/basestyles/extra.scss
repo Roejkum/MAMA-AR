@@ -102,6 +102,11 @@
 #fullScreen {
    z-index: 999;
     bottom: 15px;
-    left: 15px;
+    right: 15px;
     position: absolute;
+    background: none;
+    border: none;
+}
+#fullscreen svg {
+    fill: #ffcb3c;
 }
