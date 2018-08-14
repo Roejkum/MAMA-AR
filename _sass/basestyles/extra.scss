@@ -99,3 +99,9 @@
         display: none;
     }
 }
+#iframe-header {
+   z-index: 999;
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+}
