@@ -101,11 +101,15 @@
 }
 #fullScreen {
    z-index: 999;
-    bottom: 15px;
-    right: 15px;
+    bottom: 30px;
+    right: 30px;
     position: absolute;
     background: none;
-    border: none;   
+    border: none;
+    transform: scale(2); 
+}
+#fullScreen:hover { 
+    cursor: pointer;
 }
 #fullScreen svg {
     fill: #ffcb3c;
