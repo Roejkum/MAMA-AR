@@ -48,7 +48,7 @@ page_sections:
   block: feature-1
   media_alignment: Right
   content: Træk i 3d-modellen for at inspicere den fra alle vinkler.
-  headline: "<strong>Præsentér 3D-modeller<br></strong>på et website eller i en app."
+  headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
   sektionens_id: 3d
