@@ -1,5 +1,5 @@
 ---
-label: content-feature
+label: content-feature-iframe
 hide_body: false
 is_partial: true
 fields:
@@ -7,7 +7,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: feature-1
+  default: feature-3
 - type: textarea
   name: headline
   label: Headline
