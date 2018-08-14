@@ -20,7 +20,7 @@
     }
 
     function makeFullScreen() {
-        document.getElementsById("iframe-header")[0].className = "fullScreen";
+        document.getElementById("iframe-header")[0].className = "fullScreen";
         var elem = document.body;
         requestFullScreen(elem);
     }
