@@ -52,6 +52,11 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
   sektionens_id: 3d
+- template: content-feature-iframe
+  block: feature-1
+  headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
+  content: Træk i 3d-modellen for at inspicere den fra alle vinkler.
+  url: http://labcademy.dk/VUE/
 - template: 1-column-text
   block: one-column-1
   headline: Hvem er vi?
