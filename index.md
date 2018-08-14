@@ -52,9 +52,6 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
   sektionens_id: 3d
-- template: hero-banner-w-iframe-no-overlay
-  block: hero-4
-  url: https://mamacph.dk
 - template: 1-column-text
   block: one-column-1
   headline: Hvem er vi?
