@@ -44,7 +44,7 @@ page_sections:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
   sektionens_id: ar
-  media_type: image
+  media_type: video
 - template: content-feature-iframe
   block: feature-3
   headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
