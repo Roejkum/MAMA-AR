@@ -4,7 +4,18 @@
     // use href="#anchorID" in your hyperlinks 
     // with smoothScroll('destinationAnchorID');return false; as the onclick event.
     // <a href="#anchor-1" onclick="smoothScroll('anchor-1-id');">smooth scroll to Anchor 1<a/>
-    var myVideo = document.getElementById('video'); 
+    Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+        get: function(){
+            return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+        }
+    })
+    if(document.querySelector('video').playing){ // checks if element is playing right now
+        function myFunction() {
+            var element = document.getElementsByClassName("video");
+            element.classList.add("hidden");
+        }
+    }
+var myVideo = document.getElementById('video'); 
     function playPause() { 
         if (myVideo.paused) 
             myVideo.play(); 
