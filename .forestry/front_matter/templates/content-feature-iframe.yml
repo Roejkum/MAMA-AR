@@ -24,4 +24,4 @@ fields:
       format: html
 - type: text
   name: url
-  label: url
+  label: Url
