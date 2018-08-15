@@ -21,11 +21,11 @@
 </section>
 
 <script> 
-var myVideo = document.getElementById("{{ section.video_id }}"); 
+var myVideo{{ section.video_id }} = document.getElementById("{{ section.video_id }}"); 
 function playPause() { 
-    if (myVideo.paused) 
-        myVideo.play(); 
+    if (myVideo{{ section.video_id }}.paused) 
+        myVideo{{ section.video_id }}.play(); 
     else 
-        myVideo.pause(); 
+        myVideo{{ section.video_id }}.pause(); 
 } 
 </script> 
