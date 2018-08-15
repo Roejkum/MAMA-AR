@@ -4,7 +4,13 @@
     // use href="#anchorID" in your hyperlinks 
     // with smoothScroll('destinationAnchorID');return false; as the onclick event.
     // <a href="#anchor-1" onclick="smoothScroll('anchor-1-id');">smooth scroll to Anchor 1<a/>
-
+    var myVideo = document.getElementsByClassName('video'); 
+    function playPause() { 
+        if (myVideo.paused) 
+            myVideo.play(); 
+        else 
+            myVideo.pause(); 
+    } 
    function requestFullScreen(element) {
     // Supports most browsers and their versions.
         var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
