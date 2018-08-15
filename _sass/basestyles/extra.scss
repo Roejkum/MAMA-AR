@@ -158,7 +158,7 @@ video {
     height: 30px;
 }
 @media screen and (max-width: 767px) {
-    .play-btn {
+    .play-btn, #fullScreen {
         display: none;
     }
 }
