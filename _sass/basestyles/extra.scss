@@ -106,10 +106,19 @@
     position: absolute;
     background: none;
     border: none;
-    transform: scale(2); 
+    transform: scale(1.2);
+    background-color: black;
+    border-radius: 100px;
+    padding: 5px;
+    width: 34px;
+    height: 34px; 
+    transition: all 0.4 ease;
 }
 #fullScreen:hover { 
     cursor: pointer;
+    transform: scale(1.4);
+    opacity: 0.8;
+    transition: all 0.4 ease;
 }
 #fullScreen svg {
     fill: #ffcb3c;
