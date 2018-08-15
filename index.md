@@ -45,6 +45,7 @@ page_sections:
     alt_text: uBuild Blocks Mock-Up
   sektionens_id: ar
   media_type: video
+  video-url: https://labcademy.dk/arvideo/iPhone_AR.mp4
 - template: content-feature-iframe
   block: feature-3
   headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
