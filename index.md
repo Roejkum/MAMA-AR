@@ -46,6 +46,7 @@ page_sections:
   sektionens_id: ar
   media_type: video
   video-url: https://labcademy.dk/arvideo/iPhone_AR.mp4
+  video_id: arvideo
 - template: content-feature-iframe
   block: feature-3
   headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
@@ -59,6 +60,7 @@ page_sections:
   headline: "<strong>Oplev et virtuelt univers</strong><br>med din telefon"
   content: Med kun din mobil og et sæt billige vr-briller (som du indsætter din mobil
     i) kan du opleve eller inspicere digitale produkter eller verdener.
+  video_id: VRvideo
 - template: 1-column-text
   block: one-column-1
   headline: Hvem er vi?
