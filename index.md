@@ -51,6 +51,14 @@ page_sections:
   headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
   content: Træk i 3d-modellen for at inspicere den fra alle vinkler.
   url: https://labcademy.dk/VUE
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  media_type: video
+  video-url: https://labcademy.dk/arvideo/briller_vr.mp4
+  headline: "<strong>Oplev et virtuelt univers</strong><br>med din telefon"
+  content: Med kun din mobil og et sæt billige vr-briller (som du indsætter din mobil
+    i) kan du opleve eller inspicere digitale produkter eller verdener.
 - template: 1-column-text
   block: one-column-1
   headline: Hvem er vi?
