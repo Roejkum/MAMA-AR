@@ -13,6 +13,10 @@
         function myFunction() {
             var element = document.getElementsByClassName("video");
             element.classList.add("hidden");
+            for(var i = 0; i < element.length; i++)
+            {
+                testarray[i].className += "classtobeadded";
+            }
         }
     }
 var myVideo = document.getElementById('video'); 
