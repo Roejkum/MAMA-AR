@@ -9,7 +9,11 @@
         <p>{{ section.content }}</p>
       </div>
       <div class="column media">
-        <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+        {% if section.media_type and section.media_type == "image" %}
+          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+        {% else %}
+          <h2>test</h2>
+        {% endif %}
       </div>
     </div>      
   </div>
