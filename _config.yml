@@ -3,8 +3,8 @@ author: MAMA
 email: mama@mamacph.dk
 description: >-
   Digitale interaktive oplevelser. 
-baseurl: "/ARTEST/" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://labcademy.dk/ARTEST/" # your site's origin, e.g. https://forestry.io
 
 # Build settings
 permalink: pretty
