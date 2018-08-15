@@ -59,3 +59,6 @@ fields:
 - type: text
   label: Video-url
   name: video-url
+- type: text
+  name: video_id
+  label: video ID
