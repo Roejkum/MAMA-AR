@@ -11,9 +11,8 @@
     })
     if(document.querySelector('video').playing){ // checks if element is playing right now
         function myFunction() {
-            var element = document.getElementsByClassName("video");
-            for(var i = 0; i < element.length; i++)
-            {
+            var element = document.getElementsByClassName("play-btn");
+            for (var i = 0; i < element.length; i++) {
                 element[i].className += "hidden";
             }
         }
