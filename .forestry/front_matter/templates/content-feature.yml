@@ -42,6 +42,16 @@ fields:
     - Right
   label: Media Alignment
   default: Right
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - image
+    - video
+  label: Media type
+  name: media_type
 - type: text
   name: sektionens_id
   label: Sektionens id
