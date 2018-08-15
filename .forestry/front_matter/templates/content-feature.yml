@@ -52,6 +52,7 @@ fields:
     - video
   label: Media type
   name: media_type
+  default: image
 - type: text
   name: sektionens_id
   label: Sektionens id
