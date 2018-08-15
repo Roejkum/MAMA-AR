@@ -12,7 +12,10 @@
         {% if section.media_type and section.media_type == "image" %}
           <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
         {% else %}
-          <h2>test</h2>
+          <video width="400" autoplay loop>
+            <source src="{{ section.video-url }}" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
         {% endif %}
       </div>
     </div>      
