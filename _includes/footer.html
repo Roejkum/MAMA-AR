@@ -12,10 +12,9 @@
     if(document.querySelector('video').playing){ // checks if element is playing right now
         function myFunction() {
             var element = document.getElementsByClassName("video");
-            element.classList.add("hidden");
             for(var i = 0; i < element.length; i++)
             {
-                testarray[i].className += "classtobeadded";
+                element[i].className += "hidden";
             }
         }
     }
