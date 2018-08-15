@@ -44,14 +44,6 @@ page_sections:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
   sektionens_id: ar
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  content: Træk i 3d-modellen for at inspicere den fra alle vinkler.
-  headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
-  media:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-  sektionens_id: 3d
 - template: content-feature-iframe
   block: feature-3
   headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
