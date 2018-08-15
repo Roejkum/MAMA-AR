@@ -138,4 +138,27 @@
 }
 video {
     max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.media {
+    position: relative;
+}
+.play-btn {
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(-50%, -50%);
+}
+.play-btn img {
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 767px) {
+    .play-btn {
+        display: none;
+    }
 }
