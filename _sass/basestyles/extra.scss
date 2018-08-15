@@ -100,7 +100,7 @@
     }
 }
 #fullScreen {
-   z-index: 999;
+   z-index: 100;
     bottom: 30px;
     right: 30px;
     position: absolute;
@@ -112,13 +112,13 @@
     padding: 5px;
     width: 34px;
     height: 34px; 
-    transition: all 0.4 ease;
+    transition: all 0.4s ease;
 }
 #fullScreen:hover { 
     cursor: pointer;
     transform: scale(1.4);
     opacity: 0.8;
-    transition: all 0.4 ease;
+    transition: all 0.4s ease;
 }
 #fullScreen svg {
     fill: #ffcb3c;
