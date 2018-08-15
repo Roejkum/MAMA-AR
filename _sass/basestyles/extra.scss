@@ -149,8 +149,8 @@ video {
     background: transparent;
     cursor: pointer;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .play-btn img {
@@ -158,7 +158,12 @@ video {
     height: 30px;
 }
 @media screen and (max-width: 767px) {
-    .play-btn, #fullScreen {
+    #fullScreen {
+        display: none;
+    }
+}
+@media screen and (min-width: 767px) {
+    .play-btn {
         display: none;
     }
 }
