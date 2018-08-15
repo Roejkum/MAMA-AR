@@ -2,7 +2,7 @@
 
   <div class="block-header-2--logo">
     <a href="{{ site.url | relative_url }}">
-      <img src="{{ section.logo | relative_url }}" alt="{{ site.title }}">
+      <img src="https://labcademy.dk/ARTEST/{{ section.logo | relative_url }}" alt="{{ site.title }}">
     </a>
   </div>
 
@@ -12,7 +12,7 @@
         <li class="nav-item"><a href="#{{ item.url }}" onclick="smoothScroll('{{ item.url }}');">{{ item.title }}</a></li>
         {% endfor %}
     </ul>
-    <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+    <a class="button primary small block-header-2--cta" href="https://labcademy.dk/ARTEST/{{ section.cta.url }}">{{ section.cta.button_text }}</a>
   </nav>
 
 </header>
