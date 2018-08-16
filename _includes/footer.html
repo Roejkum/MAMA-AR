@@ -13,6 +13,15 @@
     
     window.addEventListener("load", function(event) {
         console.log("All resources finished loading!");
+        isAutoplaySupported(function(supported) {
+  if (supported) {
+    // HTML5 Video Autoplay Supported!
+    console.log('HTML5 Video Autoplay Supported!');
+  } else {
+    // HTML5 Video Autoplay Not Supported :(
+    console.log('HTML5 Video Autoplay Not Supported :(');
+  }
+});
         if(document.querySelector('video').playing){ // checks if element is playing right now
         // function myFunction() {
         //     var element = document.getElementsByClassName("play-btn");
@@ -148,15 +157,7 @@ isAutoplaySupported = function(callback) {
 // Usage: isAutoplaySupported(callback);
 // Using a callback assures that support
 // has been properly checked
-isAutoplaySupported(function(supported) {
-  if (supported) {
-    // HTML5 Video Autoplay Supported!
-    console.log('HTML5 Video Autoplay Supported!');
-  } else {
-    // HTML5 Video Autoplay Not Supported :(
-    console.log('HTML5 Video Autoplay Not Supported :(');
-  }
-});
+
 
   </script>
 
