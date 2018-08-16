@@ -10,8 +10,8 @@
         }
     })
 
-  
-    myVideo.addEventListener("load", function(event) {
+    
+    window.addEventListener("load", function(event) {
         console.log("All resources finished loading!");
         if(document.querySelector('video').playing){ // checks if element is playing right now
         // function myFunction() {
@@ -25,8 +25,7 @@
             console.log('video is not playing');
         }
     });
-    
-    var myVideo = document.getElementById('video'); 
+var myVideo = document.getElementById('video'); 
     function playPause() { 
         if (myVideo.paused) 
             myVideo.play(); 
