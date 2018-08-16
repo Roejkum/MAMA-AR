@@ -75,18 +75,6 @@ page_sections:
   block: footer-1
   content: MAMA ❤︎<br>Tranevej 20<br>2400 København NV<br>mama@mamacph.dk<br><br>Læs
     mere om, hvad vi ellers laver her:<br><a href="HTTPS://mamacph.dk" title="">MAMAcph.dk</a>
-- template: 3-column-text
-  block: three-column-1
-  col_1:
-    headline: AR
-    content: Visualisér 3d-modeller i den virkelige verden med præcis størrelsesgengivelse.
-  col_2:
-    headline: VR
-    content: Skab et virtuelt rum man kan gå på opdagelse i.
-  col_3:
-    headline: 360-video og billeder
-    content: Lad ikke billedet begrænse hvad du vil vise. Vis omgivelser og skab indlevende
-      og interaktive fortællinger.
 
 ---
 foo bar
