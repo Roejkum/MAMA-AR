@@ -48,7 +48,8 @@ page_sections:
 - template: content-feature-iframe
   block: feature-3
   headline: "<strong>Præsentér virtuelle produkter<br></strong>på dine digitale platforme."
-  content: Træk i 3d-modellen for at inspicere den fra alle vinkler.
+  content: Giv besøgende mulighed for selv at inspicere 3d-modeller fra alle vinkler.
+    Vi animerer og integrerer modeller og scenarier på hjemmesider og i apps.
   url: https://labcademy.dk/VUE
 - template: content-feature
   block: feature-1
@@ -56,8 +57,11 @@ page_sections:
   media_type: video
   video-url: https://labcademy.dk/arvideo/briller_vr.mp4
   headline: "<strong>Oplev et virtuelt univers</strong><br>med din telefon"
-  content: Med kun din mobil og et sæt billige vr-briller (som du indsætter din mobil
-    i) kan du opleve eller inspicere digitale produkter eller verdener.
+  content: Virtual Reality behøver ikke kræve mere end en mobiltelefon. Det giver
+    mulighed for at have rum og steder med i lommen, og vise billeder eller video
+    uden begrænsninger for seeren. 360* video og billeder er en simpel men indlevende
+    måde at kommunikere på, hvor seeren selv kan udforske et hvilket som helst sted
+    - virkeligt eller fiktivt.
   video_id: VRvideo
 - template: 1-column-text
   block: one-column-1
