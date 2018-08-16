@@ -9,6 +9,7 @@
             return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
         }
     })
+
     if(document.querySelector('video').playing){ // checks if element is playing right now
         // function myFunction() {
         //     var element = document.getElementsByClassName("play-btn");
@@ -20,6 +21,9 @@
     } else {
         console.log('video is not playing');
     }
+    window.addEventListener("load", function(event) {
+        console.log("All resources finished loading!");
+    });
 var myVideo = document.getElementById('video'); 
     function playPause() { 
         if (myVideo.paused) 
