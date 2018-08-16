@@ -159,16 +159,16 @@ video {
     transform: translate(-50%, -50%);
 }
 .play-btn img {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
 }
 @media screen and (max-width: 767px) {
     #fullScreen {
         display: none;
     }
 }
-@media screen and (min-width: 767px) {
-    .play-btn {
-        display: none;
-    }
-}
+// @media screen and (min-width: 767px) {
+//     .play-btn {
+//         display: none;
+//     }
+// }

@@ -5,13 +5,13 @@
           {% if section.media_type and section.media_type == "image" %}
           <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
         {% else %}
-          <video class="video" id="{{ section.video_id }}" width="400" autoplay loop>
+          <video controls class="video" id="{{ section.video_id }}" width="400" autoplay loop>
             <source src="{{ section.video-url }}" type="video/mp4">
             Your browser does not support HTML5 video.
           </video>
-          <button class="play-btn" onclick="playPause{{ section.video_id }}()">
+          <!-- <button class="play-btn" onclick="playPause{{ section.video_id }}()">
             <img src="{{ site.url }}uploads/2018/08/15/baseline_play_circle_filled_white_48dp.png"/>
-          </button>
+          </button> -->
         {% endif %}
       </div>
       <div class="column text">
@@ -21,13 +21,13 @@
     </div>
   </div>
 </section>
-
+<!-- 
 <script> 
 var myVideo{{ section.video_id }} = document.getElementById("{{ section.video_id }}"); 
 function playPause{{ section.video_id }}() { 
     if (myVideo{{ section.video_id }}.paused) 
         myVideo{{ section.video_id }}.play(); 
-    // else 
-    //     myVideo{{ section.video_id }}.pause(); 
+    else 
+        myVideo{{ section.video_id }}.pause(); 
 } 
-</script> 
+</script>  -->
