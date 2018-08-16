@@ -31,10 +31,13 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>Visualisér produkter<br></strong><span class="light">i et fysisk
-    rum</span>
-  content: Inspicer en 3d-model eller afprøv en varmepumpes placering i et rum med
-    præcis størrelsesgengivelse. Alt sammen på din egen telefon.
+  headline: <strong>Augmented Reality<br></strong>Visualisér produkter <span class="light">i
+    et fysisk rum</span>
+  content: Inspicer en 3d-model eller afprøv placering og størrelse i den virkelig
+    verden. AR giver mulighed for at blande de fysiske rammer med et virtuelt produkt,
+    og kan kommunikere idéer og forslag på en enkel og præcis måde, direkte på telefonen.<br><br><em>(Video
+    fra AR-app, der hjælper beboere og installatører med at optimere placeringen af
+    varmepumpe forud for installation).</em>
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
