@@ -141,6 +141,11 @@
         height: 230px;
     }
 }
+@media screen and (max-width: 400px) {
+    #iframe-model {
+        height: 200px;
+    }
+}
 video {
     max-width: 100%;
     display: block;
