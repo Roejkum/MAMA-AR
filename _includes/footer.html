@@ -10,7 +10,10 @@
         }
     })
 
-    if(document.querySelector('video').playing){ // checks if element is playing right now
+    
+    window.addEventListener("load", function(event) {
+        console.log("All resources finished loading!");
+        if(document.querySelector('video').playing){ // checks if element is playing right now
         // function myFunction() {
         //     var element = document.getElementsByClassName("play-btn");
         //     for (var i = 0; i < element.length; i++) {
@@ -21,8 +24,6 @@
     } else {
         console.log('video is not playing');
     }
-    window.addEventListener("load", function(event) {
-        console.log("All resources finished loading!");
     });
 var myVideo = document.getElementById('video'); 
     function playPause() { 
